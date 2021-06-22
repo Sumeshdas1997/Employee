@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+ <servlet>  
+<servlet-name>createemployeeservlet</servlet-name>  
+<servlet-class>com.servlet.controller.CreateEmployeeServlet</servlet-class>  
+</servlet> 
+<servlet>  
+<servlet-name>updateteemployeeservlet</servlet-name>  
+<servlet-class>com.servlet.controller.UpdateEmployeeServlet</servlet-class>  
+</servlet>  
+  <servlet>  
+<servlet-name>deleteteemployeeservlet</servlet-name>  
+<servlet-class>com.servlet.controller.deleteteEmployeeServlet</servlet-class>  
+</servlet> 
+ <servlet>  
+<servlet-name>getallemployeeservlet</servlet-name>  
+<servlet-class>com.servlet.controller.getallEmployeeServlet</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>createemployeeservlet</servlet-name>  
+<url-pattern>/createemployee</url-pattern>  
+</servlet-mapping>
+
+<servlet-mapping>  
+<servlet-name>updateemployeeservlet</servlet-name>  
+<url-pattern>/updateemployee</url-pattern>  
+</servlet-mapping>  
+  <servlet-mapping>  
+<servlet-name>deleteemployeeservlet</servlet-name>  
+<url-pattern>/deleteemployee</url-pattern>  
+</servlet-mapping>
+ <servlet-mapping>  
+<servlet-name>getallemployeeservlet</servlet-name>  
+<url-pattern>/getallemployee</url-pattern>  
+</servlet-mapping>
+
+ <welcome-file-list>  
+   <welcome-file>Sushanta.html</welcome-file>  
+    
+  </welcome-file-list>  
+</web-app>
